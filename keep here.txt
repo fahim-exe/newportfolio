@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+}
+.navbar{
+       
+    background-color: #61EFB3;
+    width: 100%;
+    
+    
+}
+
+
+
+.navbar .logo p{
+    position: absolute;
+    float: left;
+    font-size: 33px;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: .5px;
+    margin: 25px 0px;
+}
+
+.navbar .logo p a{
+    text-decoration: none;
+    color:#0F426E;
+    
+
+}
+
+.navbar .searchbar input {
+    margin: 29px 140px;
+    border-radius: 50px;
+    height: 33px;
+    border: none;
+    box-sizing: border-box;
+    position: relative;
+    padding: 3px 25px;
+}
+
+.navbar .home_icon{
+    
+    margin: 0px 0px;
+    
+}
+
+
