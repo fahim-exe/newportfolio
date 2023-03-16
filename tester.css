@@ -1,93 +1,67 @@
 *{
     margin: 0;
+    border: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
-
-}
-
-body{
-    background-color:whitesmoke ;
-
 }
 
 header{
+    display: flex;
+    background-color: teal;
     width: 100%;
-    height: 14%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    z-index: 99;
-    box-shadow: 0 0 5px #7b7979;
-    background: #61EFB3;
+    height: 40%;
 }
 
-#chk1{
-    display: none;
+.hleft, .hright, .hmid{
+    align-content: center;
+    text-align: center;
 }
 
-.profile, .menu{
-    color: #fff;
-    cursor: pointer;
+.hleft{
+    width: 28%;
+    background-color: blueviolet;
 }
 
-header .logo{
-    flex: 1;
-    font-size: 33px;
-    color: #0F426E;
-    margin-left: 50px;
+.hright{
+    width: 28%;
+    background-color: darkgrey;
+}
+
+
+.hmid{
+    width: 44%;
+    background-color: coral;
+}
+
+p{
     font-weight: bold;
+    font-size: 33px;
+    font-family: times;
 }
 
-
-header .search-box{
-    flex: 1;
-    position: relative;
-}
-
-.search-box input{
-    margin: 0% -70%;
-    width: 60%;
-    height: 34px;
-    border: none;
-    outline: none;
-    background: #cae0f4;
-    border-radius: 30px;
-    color: #7b7979;
-    font-size: 16px;
-    text-align: left;
-    padding-left: 15px;
-}
-
-
-.search-box button{
-    margin: 0% 111%;
-    cursor: pointer;
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    border: none;
-    position: absolute;
-    top: 1px;
-    right: 0px;
-    transform: scale(0.9);
-    background: #4986bc;
-}
-
-header ul{
-    flex: 2;
+#container{
+    
     display: flex;
-    justify-content: space-evenly;
+    width: 100%;
+    background-color: burlywood;
 }
 
-header ul li{
-    list-style: none;
-
+.col1, .col2, .col3{
+    text-align: center;
+    
+    margin:0px 0px 0px 0px;
 }
 
-
-header ul li a{
-
+.col1{
+    width: 28%;
+    background-color: blueviolet;
 }
 
+.col2{
+    width: 44%;
+    background-color: coral;
+}
+
+.col3{
+    width: 28%;
+    background-color: darkgrey;
+}
